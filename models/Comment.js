@@ -36,7 +36,7 @@ const CommentSchema = new Schema(
     writtenBy: {
       type: String,
       required: true,
-      trim: ture
+      trim: true
     },
     commentBody: {
       type: String,
